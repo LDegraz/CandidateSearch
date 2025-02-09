@@ -6,3 +6,4 @@ const CandidateSearch = () => {
 };
 
 export default CandidateSearch;
+ 
