@@ -21,52 +21,50 @@ To install this application, please follow the steps below:
 2. **Go to Candidate Search repo:**
 - [Click here for Candidate Search Repo](https://github.com/LDegraz/CandidateSearch.git)
 
-   ![screenshot of GitHub repo](????)
+   ![screenshot of GitHub repo](./src/assets/1-github.png)
 
 3. **Copy SSH Key & Clone Repo:**
 - Click "code" & copy the SSH key to your clipboard
 
-   ![screenshot of copying repo SSH key to clipboard](????)
+   ![screenshot of copying repo SSH key to clipboard](./src/assets/2-sshkey.png)
 
 - Go to your local code editor (VS-Code) & paste the SSH key after the command: git clone
 
-   ![screenshot of git clone command](????)
+   ![screenshot of git clone command](./src/assets/3-clone.png)
 
 - Navigate to the project directory using the command: cd CandidateSearch
 
-   ![screenshot of cd CandidateSearch command](????)
+   ![screenshot of cd CandidateSearch command](./src/assets/4-cd.png)
 
 4. **Install Dependencies:**
 - **Note: Please be sure you installed the prerequisites in step 1. You will need npm installed for this step**
 - Install the required npm packages: react, react-dom, react-icons, & react-router-dom
 
-   ![screenshot of npm install react command](????)
-   ![screenshot of npm install react-dom command](????)
-   ![screenshot of npm install react-icons command](????)
-   ![screenshot of npm install react-router-dom command](????)
+   ![screenshot of npm install dependency commands](./src/assets/5-dependencies.png)
 
 5. **Run the Application:**
 - Start the Candidate Search by typing the following command in your terminal: npm run dev
 
-   ![screenshot of npm run dev command](????)
+   ![screenshot of npm run dev command](./src/assets/6-run-dev.png)
+
+- Click the local link to access the application
+
+   ![screenshot of npm run dev command](./src/assets/7-local-host.png)
 
 ## Usage
 
 ### [Click here for the Candidate Search website](https://candidatesearch-9qet.onrender.com)
 
 To use the Candidate Search application, follow these steps:
-1. Complete the steps above (Installation section) & run the application with the command: npm run dev
-
-   ![screenshot of npm run dev command](????)
-
-2. Browse the candidates to clicking “+” or “-” buttons
+1. Browse the candidates to clicking “+” or “-” buttons
 - click “-” if you are not interested in that candidate & you will be shown the next applicant. 
 - click “+” if you would like to save the candidate for future consideration
 
-   ![screenshot of “-” & “+” buttons](????)
+   ![screenshot of “-” & “+” buttons](./src/assets/8-save-deny.png)
 
-3. Click “saved candidates” to view potential hires 
-   ![screenshot of saved candidates page](????)
+2. Click “saved candidates” to view potential hires 
+  
+   ![screenshot of saved candidates page](./src/assets/9-saved.png)
 
 ## Contributors
 - [Lauren DeGrazia](https://github.com/LDegraz/CandidateSearch.git) - Project Creator
